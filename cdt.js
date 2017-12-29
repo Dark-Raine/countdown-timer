@@ -1,6 +1,6 @@
 function countDown(seconds){
     var interv = 1000;
-    var intervId = setInterval((){
+    var intervId = setInterval(() =>{
         console.log(seconds);
         seconds-=1;
 
